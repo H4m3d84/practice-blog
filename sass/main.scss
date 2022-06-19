@@ -3,18 +3,22 @@
 
 @import 'base/reset';
 @import 'base/typography';
+@import 'base/utilities';
 
 @import 'components/buttons';
 @import 'components/carousel';
 @import 'components/cover';
 @import 'components/dropdown';
+@import 'components/navigation';
 
+@import 'layout/aside';
 @import 'layout/navigation';
 @import 'layout/grid';
 @import 'layout/header';
 @import 'layout/footer';
 @import 'layout/sidebar';
 @import 'layout/forms';
+@import 'layout/post';
 
 @import 'pages/home';
 @import 'pages/contact';

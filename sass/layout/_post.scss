@@ -1,0 +1,38 @@
+.post {
+  &__header {
+    margin-bottom: 2.4rem;
+  }
+
+  &__author {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+    margin-bottom: 1.2rem;
+  }
+
+  &__author-img {
+    width: 6.4rem;
+    height: 6.4rem;
+  }
+  &__author-text {
+    font-size: 1.4rem;
+  }
+  &__img {
+  }
+
+  &__ordered-list {
+    font-size: 1.6rem;
+    margin-left: 2.4rem;
+    margin-bottom: 1.2rem;
+    &__item {
+    }
+  }
+
+  &__unordered-list {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+    margin-left: 2.4rem;
+    &__item {
+    }
+  }
+}

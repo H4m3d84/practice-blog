@@ -1,3 +1,152 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 2.4rem;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+}
+
+.heading-secondary {
+  font-size: 3.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.heading-tertiary {
+  font-size: 2.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.u-m-t-vs {
+  margin-top: 0.8rem;
+}
+
+.u-m-t-s {
+  margin-top: 1.2rem;
+}
+
+.u-m-t-m {
+  margin-top: 2.4rem;
+}
+
+.u-m-t-l {
+  margin-top: 3.2rem;
+}
+
+.u-m-t-vl {
+  margin-top: 4.8rem;
+}
+
+.u-m-b-vs {
+  margin-bottom: 0.8rem;
+}
+
+.u-m-b-s {
+  margin-bottom: 1.2rem;
+}
+
+.u-m-b-m {
+  margin-bottom: 2.4rem;
+}
+
+.u-m-b-l {
+  margin-bottom: 3.2rem;
+}
+
+.u-m-b-vl {
+  margin-bottom: 4.8rem;
+}
+
+.nav {
+  font-size: 2.4rem;
+}
+.nav__list {
+  display: flex;
+  gap: 2rem;
+}
+.nav__li {
+  list-style: none;
+}
+.aside {
+  background-color: #f1f3f5;
+  padding: 2.4rem;
+}
+.aside__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.aside__item {
+  margin-bottom: 2.4rem;
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  column-gap: 2.4rem;
+}
+.aside__img {
+  width: 9.6rem;
+  height: 9.6rem;
+}
+.aside__author {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.aside__author__link {
+  font-size: 1.6rem;
+  grid-column: 2/3;
+}
+.aside__author__name {
+  font-size: 1.4rem;
+  grid-column: 2/3;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8rem;
+}
+
+.post__header {
+  margin-bottom: 2.4rem;
+}
+.post__author {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  margin-bottom: 1.2rem;
+}
+.post__author-img {
+  width: 6.4rem;
+  height: 6.4rem;
+}
+.post__author-text {
+  font-size: 1.4rem;
+}
+.post__ordered-list {
+  font-size: 1.6rem;
+  margin-left: 2.4rem;
+  margin-bottom: 1.2rem;
+}
+.post__unordered-list {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+  margin-left: 2.4rem;
+}
 
 /*# sourceMappingURL=output.css.map */
