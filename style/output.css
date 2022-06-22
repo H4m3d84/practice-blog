@@ -148,5 +148,9 @@ body {
   margin-bottom: 1.2rem;
   margin-left: 2.4rem;
 }
+.container {
+  width: 100rem;
+  margin: 0 auto;
+}
 
 /*# sourceMappingURL=output.css.map */
