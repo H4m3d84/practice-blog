@@ -4,6 +4,20 @@
 .heading-secondary {
   font-size: 3.6rem;
   margin-bottom: 1.6rem;
+  position: relative;
+  display: inline-block;
+
+  &::after {
+    content: 'top';
+    background-color: yellow;
+    position: absolute;
+    top: -1.6rem;
+    right: -8rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #444;
+    padding: 0.4rem 0.8rem;
+  }
 }
 .heading-tertiary {
   font-size: 2.4rem;
