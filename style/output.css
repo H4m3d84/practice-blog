@@ -93,7 +93,7 @@ body {
 .nav {
   float: right;
   font-size: 2.4rem;
-  margin-top: 2rem;
+  margin-top: 1.8rem;
 }
 .nav__li {
   list-style: none;
@@ -105,7 +105,8 @@ body {
 .aside {
   background-color: #f1f3f5;
   padding: 2.4rem;
-  width: 60rem;
+  width: 30%;
+  float: right;
 }
 .aside__list {
   list-style: none;
@@ -163,6 +164,18 @@ body {
   box-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.1);
 }
 
+.footer {
+  float: left;
+  clear: both;
+  margin: 2.4rem 0;
+  display: block;
+}
+
+.post {
+  background-color: #f1f3f5;
+  max-width: 68%;
+  float: left;
+}
 .post__header {
   margin-bottom: 2.4rem;
 }
@@ -180,6 +193,9 @@ body {
   margin-top: 2.4rem;
   margin-left: 1.6rem;
 }
+.post__img {
+  width: 100%;
+}
 .post__ordered-list {
   font-size: 1.6rem;
   margin-left: 2.4rem;
@@ -191,7 +207,7 @@ body {
   margin-left: 2.4rem;
 }
 .container {
-  width: 100rem;
+  width: 120rem;
   margin: 0 auto;
   position: relative;
 }
