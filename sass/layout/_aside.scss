@@ -1,7 +1,6 @@
 .aside {
   background-color: #f1f3f5;
   padding: 2.4rem;
-  width: 60rem;
 
   &__list {
     list-style: none;
@@ -11,9 +10,8 @@
   }
   &__item {
     margin-bottom: 2.4rem;
-    display: grid;
-    grid-template-columns: repeat(2, max-content);
-    column-gap: 2.4rem;
+    display: flex;
+    gap: 1.6rem;
   }
   &__img {
     width: 9.6rem;
@@ -27,11 +25,9 @@
 
     &__link {
       font-size: 1.6rem;
-      grid-column: 2 / 3;
     }
     &__name {
       font-size: 1.4rem;
-      grid-column: 2 / 3;
     }
   }
 }

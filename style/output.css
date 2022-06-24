@@ -10,6 +10,7 @@ html {
 
 body {
   padding: 2.4rem;
+  border-top: 1rem solid rgb(127, 195, 235);
 }
 
 .heading-primary {
@@ -97,7 +98,6 @@ body {
 .aside {
   background-color: #f1f3f5;
   padding: 2.4rem;
-  width: 60rem;
 }
 .aside__list {
   list-style: none;
@@ -107,9 +107,8 @@ body {
 }
 .aside__item {
   margin-bottom: 2.4rem;
-  display: grid;
-  grid-template-columns: repeat(2, max-content);
-  column-gap: 2.4rem;
+  display: flex;
+  gap: 1.6rem;
 }
 .aside__img {
   width: 9.6rem;
@@ -122,11 +121,9 @@ body {
 }
 .aside__author__link {
   font-size: 1.6rem;
-  grid-column: 2/3;
 }
 .aside__author__name {
   font-size: 1.4rem;
-  grid-column: 2/3;
 }
 
 .header {
@@ -139,12 +136,12 @@ body {
 .like-btn {
   padding: 0.8rem 1.6rem;
   font-size: 1.6rem;
-  background-color: #eee;
+  background-color: #ccc;
   transition: background-color 0.2s, box-shadow 0.2s;
   border: none;
   position: absolute;
-  bottom: 2.4rem;
-  right: 2.4rem;
+  bottom: 6.4rem;
+  right: 6.4rem;
 }
 .like-btn span {
   color: red;
@@ -152,8 +149,15 @@ body {
   font-size: 1.8rem;
 }
 .like-btn:hover {
-  background-color: #ccc;
+  background-color: #eee;
   box-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  font-size: 1.4rem;
+  margin: 8rem 0;
+  padding: 2.4rem 0rem;
+  color: #777;
 }
 
 .post__header {
@@ -172,6 +176,9 @@ body {
 .post__author-text {
   font-size: 1.4rem;
 }
+.post__img {
+  width: 100%;
+}
 .post__ordered-list {
   font-size: 1.6rem;
   margin-left: 2.4rem;
@@ -183,9 +190,25 @@ body {
   margin-left: 2.4rem;
 }
 .container {
-  width: 100rem;
+  width: 110rem;
   margin: 0 auto;
   position: relative;
+}
+
+.main-content {
+  display: flex;
+  gap: 4.8rem;
+}
+
+.post {
+  flex: 1 1 70%;
+}
+
+.aside {
+  flex: 1 1 30%;
+  align-self: flex-start;
+  border-top: 0.5rem solid rgb(127, 195, 235);
+  border-bottom: 0.5rem solid rgb(127, 195, 235);
 }
 
 /*# sourceMappingURL=output.css.map */
