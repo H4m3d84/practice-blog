@@ -112,13 +112,23 @@ body {
 }
 .aside__item {
   margin-bottom: 2.4rem;
+  padding: 2.4rem;
+  background-color: #ddd;
 }
 .aside__img {
   width: 9.6rem;
   height: 9.6rem;
+  float: left;
+}
+.aside__author {
+  float: left;
+  margin-top: 2.4rem;
+  margin-left: 2.4rem;
 }
 .aside__author__link {
   font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+  display: inline-block;
 }
 .aside__author__name {
   font-size: 1.4rem;

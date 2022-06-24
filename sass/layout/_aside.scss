@@ -8,15 +8,23 @@
   }
   &__item {
     margin-bottom: 2.4rem;
+    padding: 2.4rem;
+    background-color: #ddd;
   }
   &__img {
     width: 9.6rem;
     height: 9.6rem;
+    float: left;
   }
 
   &__author {
+    float: left;
+    margin-top: 2.4rem;
+    margin-left: 2.4rem;
     &__link {
       font-size: 1.6rem;
+      margin-bottom: 1.6rem;
+      display: inline-block;
     }
     &__name {
       font-size: 1.4rem;
