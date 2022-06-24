@@ -4,14 +4,10 @@
 
   &__list {
     list-style: none;
-    display: flex;
-    flex-direction: column;
     gap: 1.2rem;
   }
   &__item {
     margin-bottom: 2.4rem;
-    display: flex;
-    gap: 1.6rem;
   }
   &__img {
     width: 9.6rem;
@@ -19,10 +15,6 @@
   }
 
   &__author {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
     &__link {
       font-size: 1.6rem;
     }

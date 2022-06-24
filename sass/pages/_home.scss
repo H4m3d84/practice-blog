@@ -5,17 +5,12 @@
 }
 
 .main-content {
-  display: flex;
-  gap: 4.8rem;
 }
 
 .post {
-  flex: 1 1 70%;
 }
 
 .aside {
-  flex: 1 1 30%;
-  align-self: flex-start;
   border-top: 0.5rem solid rgb(127, 195, 235);
   border-bottom: 0.5rem solid rgb(127, 195, 235);
 }

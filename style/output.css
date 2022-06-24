@@ -101,23 +101,14 @@ body {
 }
 .aside__list {
   list-style: none;
-  display: flex;
-  flex-direction: column;
   gap: 1.2rem;
 }
 .aside__item {
   margin-bottom: 2.4rem;
-  display: flex;
-  gap: 1.6rem;
 }
 .aside__img {
   width: 9.6rem;
   height: 9.6rem;
-}
-.aside__author {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
 }
 .aside__author__link {
   font-size: 1.6rem;
@@ -127,9 +118,6 @@ body {
 }
 
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   margin-bottom: 8rem;
   background-color: #eee;
   padding: 2.4rem 1.2rem;
@@ -166,9 +154,6 @@ body {
   margin-bottom: 2.4rem;
 }
 .post__author {
-  display: flex;
-  align-items: center;
-  gap: 2.4rem;
   margin-bottom: 1.2rem;
 }
 .post__author-img {
@@ -197,18 +182,7 @@ body {
   position: relative;
 }
 
-.main-content {
-  display: flex;
-  gap: 4.8rem;
-}
-
-.post {
-  flex: 1 1 70%;
-}
-
 .aside {
-  flex: 1 1 30%;
-  align-self: flex-start;
   border-top: 0.5rem solid rgb(127, 195, 235);
   border-bottom: 0.5rem solid rgb(127, 195, 235);
 }
