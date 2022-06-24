@@ -1,9 +1,16 @@
 .nav {
   font-size: 2.4rem;
+  padding-top: 2rem;
   &__list {
+    float: right;
   }
   &__li {
     list-style: none;
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 1.8rem;
+    }
   }
   &__link {
   }
