@@ -87,10 +87,6 @@ body {
 .nav {
   font-size: 2.4rem;
 }
-.nav__list {
-  display: flex;
-  gap: 2rem;
-}
 .nav__li {
   list-style: none;
 }
@@ -101,38 +97,22 @@ body {
 }
 .aside__list {
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
 }
 .aside__item {
   margin-bottom: 2.4rem;
-  display: grid;
-  grid-template-columns: repeat(2, max-content);
-  column-gap: 2.4rem;
 }
 .aside__img {
   width: 9.6rem;
   height: 9.6rem;
 }
-.aside__author {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
 .aside__author__link {
   font-size: 1.6rem;
-  grid-column: 2/3;
 }
 .aside__author__name {
   font-size: 1.4rem;
-  grid-column: 2/3;
 }
 
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   margin-bottom: 8rem;
 }
 
@@ -160,9 +140,6 @@ body {
   margin-bottom: 2.4rem;
 }
 .post__author {
-  display: flex;
-  align-items: center;
-  gap: 2.4rem;
   margin-bottom: 1.2rem;
 }
 .post__author-img {

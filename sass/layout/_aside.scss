@@ -5,15 +5,9 @@
 
   &__list {
     list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
   }
   &__item {
     margin-bottom: 2.4rem;
-    display: grid;
-    grid-template-columns: repeat(2, max-content);
-    column-gap: 2.4rem;
   }
   &__img {
     width: 9.6rem;
@@ -21,17 +15,11 @@
   }
 
   &__author {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
     &__link {
       font-size: 1.6rem;
-      grid-column: 2 / 3;
     }
     &__name {
       font-size: 1.4rem;
-      grid-column: 2 / 3;
     }
   }
 }
