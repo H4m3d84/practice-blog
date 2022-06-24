@@ -117,14 +117,14 @@ body {
   background-color: #ddd;
 }
 .aside__img {
-  width: 9.6rem;
-  height: 9.6rem;
+  width: 40%;
+  height: auto;
   float: left;
 }
 .aside__author {
   float: left;
-  margin-top: 2.4rem;
   margin-left: 2.4rem;
+  width: 50%;
 }
 .aside__author__link {
   font-size: 1.6rem;
