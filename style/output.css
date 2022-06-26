@@ -105,10 +105,18 @@ body {
 }
 .aside__item {
   margin-bottom: 2.4rem;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
 }
 .aside__img {
   width: 9.6rem;
   height: 9.6rem;
+}
+.aside__author {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 .aside__author__link {
   font-size: 1.6rem;
@@ -121,6 +129,9 @@ body {
   margin-bottom: 8rem;
   background-color: #eee;
   padding: 2.4rem 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .like-btn {
@@ -155,6 +166,9 @@ body {
 }
 .post__author {
   margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
 }
 .post__author-img {
   width: 6.4rem;
@@ -180,11 +194,23 @@ body {
   width: 110rem;
   margin: 0 auto;
   position: relative;
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  column-gap: 4.8rem;
+}
+
+.header {
+  grid-column: 1/-1;
 }
 
 .aside {
   border-top: 0.5rem solid rgb(127, 195, 235);
   border-bottom: 0.5rem solid rgb(127, 195, 235);
+  align-self: start;
+}
+
+.footer {
+  grid-column: 1/-1;
 }
 
 /*# sourceMappingURL=output.css.map */
